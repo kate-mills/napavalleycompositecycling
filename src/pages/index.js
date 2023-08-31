@@ -1,5 +1,10 @@
 import * as React from "react"
+import Layout from '../components/Layout'
 
 export default function Home() {
-  return <div>NAPA VALLEY COMPOSITE CYCLING</div>
+  return <Layout>
+    Home Page
+  <br/>
+    NAPA VALLEY COMPOSITE CYCLING
+    </Layout>
 }
